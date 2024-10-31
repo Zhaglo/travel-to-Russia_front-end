@@ -1,0 +1,13 @@
+.link {
+    color: white;
+    text-decoration: none;
+    transition: .4s opacity;
+    -webkit-transition: .4s opacity;
+    -moz-transition: .4s opacity;
+    -ms-transition: .4s opacity;
+    -o-transition: .4s opacity;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
