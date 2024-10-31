@@ -1,5 +1,5 @@
 .cover {
-    background-image: url("../../images/cover-trains.jpg");
+    background: url("../../images/cover-trains.jpg") center /cover no-repeat;
     width: 100%;
 }
 

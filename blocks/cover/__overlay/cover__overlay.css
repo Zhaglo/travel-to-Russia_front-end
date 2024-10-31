@@ -1,0 +1,35 @@
+.cover__overlay {
+    display: block;
+    text-decoration: none;
+    padding: 33px 0;
+    color: white;
+
+    background-color: rgba(42, 44, 47, 0.3);;
+}
+
+@media (min-width: 550px) {
+    .cover__overlay {
+        padding: 115px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__overlay {
+        padding: 195px 0;
+        transition: 1s background-color ease-out;
+        -webkit-transition: 1s background-color ease-out;
+        -moz-transition: 1s background-color ease-out;
+        -ms-transition: 1s background-color ease-out;
+        -o-transition: 1s background-color ease-out;
+    }
+
+    .cover__overlay:hover {
+        background-color: rgba(42, 44, 47, 0.8);;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__overlay {
+        padding: 245px 0;
+    }
+}
