@@ -1,6 +1,39 @@
 .header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 
-    max-width: 1184px;
-    max-height: 52px;
+    width: calc(100vw - 2 * 16px);
+
+    margin: 16px auto 48px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        width: calc(100vw - 2 * 24px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        width: calc(100vw - 2 * 48px);
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        max-width: 1184px;
+    }
+}
+
+@media (min-width: 550px) {
+    .page__header {
+        margin-top: 28px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .page__header {
+        margin-bottom: 56px;
+    }
 }
